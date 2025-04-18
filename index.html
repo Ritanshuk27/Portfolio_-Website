@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Front-End Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🔷 <span>Welcome</span></div>
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">My Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Hey there, I'm a<br><span class="highlight">Front-End Developer</span></h1>
+      <p>I love building interactive, responsive, and elegant websites that solve real-world problems.</p>
+      <div class="buttons">
+        <a href="#" class="btn primary">Download CV</a>
+        <a href="#contact" class="btn secondary">Hire Me</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="WhatsApp Image 2024-10-04 at 23.15.35.jpeg" alt="Developer Photo" />
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">C</div>
+      <div class="skill">Java</div>
+      <div class="skill">Python</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Django</div>
+      <div class="skill">Flask</div>
+      <div class="skill">React</div>
+      <div class="skill">Node.js</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>Petfolio</h3>
+      <p>Petfolio is a web application for pet owners to manage their pets' details, health records, appointments, and more, in a simple and interactive platform.</p>
+    </div>
+    <div class="project">
+      <h3>Hospital Management System</h3>
+      <p>This system helps manage hospital operations such as patient records, appointment scheduling, billing, and more, aiming to improve hospital efficiency.</p>
+    </div>
+    <div class="project">
+      <h3>Travel App</h3>
+      <p>A travel application that provides users with details on top travel destinations, offers recommendations, and helps them plan their vacations.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a passionate front-end developer with a strong foundation in web development and programming. I specialize in creating responsive, user-friendly websites using technologies like HTML, CSS, JavaScript, and frameworks such as Django and React. I enjoy solving problems and building interactive, beautiful websites that help users achieve their goals. Outside of coding, I enjoy exploring new technologies and contributing to open-source projects.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="#" method="POST">
+      <div>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div>
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
